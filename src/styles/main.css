@@ -11,4 +11,52 @@ body {
     background-color: aqua;
 }
 
-h1{color: aqua;}
+h1{
+    color: #ccc;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav > div {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+   
+}
+
+nav > div:hover {
+    color: lightseagreen;
+    
+}
+#content {
+    width: 80vw;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+ margin: 0 auto;
+    justify-self: center;
+    margin-top: 40px;
+ 
+}
+
+nav > div:focus {
+    color: gold;
+}
+
+.mymagic {
+    color: gold;
+    font-size: 100px;
+    font-weight: 700;
+}

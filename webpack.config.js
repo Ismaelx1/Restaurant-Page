@@ -7,8 +7,11 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name] [contenthash].js',
+        clean: true,
+
     },
+    devtool: 'source-map',
     module: {
         rules: [{
             test: /\.css$/,
@@ -22,6 +25,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Webpack App',
             filename: 'index.html',
-        })
-    ]
+            template: 'src/template.html',
+        }),
+    ],
 }
