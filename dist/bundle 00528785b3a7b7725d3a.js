@@ -78,7 +78,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin: 0;\n    padding: 0;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n}\n\n.starting {\n    height: 100px;\n    width: 100px;\n    background-color: aqua;\n}\n\nh1{\n    color: #ccc;\n    text-align: center;\n    font-size: 50px;\n\n}\n\n.container-nav {\n    display: flex;\n    justify-content: center;\n}\n\n.nav {\n    display: flex;\n    gap: 40px;\n}\n\nnav > div {\n    font-size: 30px;\n    color: white;\n    font-style: italic;\n    cursor: pointer;\n   \n}\n\nnav > div:hover {\n    color: lightseagreen;\n    \n}\n#content {\n    width: 80vw;\n    height: 400px;\n    background-color: #ccc;\n    display: flex;\n margin: 0 auto;\n    justify-self: center;\n    margin-top: 40px;\n \n}\n\nnav > div:focus {\n    color: gold;\n}\n\n.mymagic {\n    color: gold;\n    font-size: 100px;\n    font-weight: 700;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,yDAAuD;IACvD,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,eAAe;;AAEnB;;AAEA;IACI,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,eAAe;IACf,YAAY;IACZ,kBAAkB;IAClB,eAAe;;AAEnB;;AAEA;IACI,oBAAoB;;AAExB;AACA;IACI,WAAW;IACX,aAAa;IACb,sBAAsB;IACtB,aAAa;CAChB,cAAc;IACX,oBAAoB;IACpB,gBAAgB;;AAEpB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,gBAAgB;AACpB","sourcesContent":["body {\n    margin: 0;\n    padding: 0;\n    background-image: url(../pexels-dương-nhân-2232979.jpg);\n    background-size: cover;\n}\n\n.starting {\n    height: 100px;\n    width: 100px;\n    background-color: aqua;\n}\n\nh1{\n    color: #ccc;\n    text-align: center;\n    font-size: 50px;\n\n}\n\n.container-nav {\n    display: flex;\n    justify-content: center;\n}\n\n.nav {\n    display: flex;\n    gap: 40px;\n}\n\nnav > div {\n    font-size: 30px;\n    color: white;\n    font-style: italic;\n    cursor: pointer;\n   \n}\n\nnav > div:hover {\n    color: lightseagreen;\n    \n}\n#content {\n    width: 80vw;\n    height: 400px;\n    background-color: #ccc;\n    display: flex;\n margin: 0 auto;\n    justify-self: center;\n    margin-top: 40px;\n \n}\n\nnav > div:focus {\n    color: gold;\n}\n\n.mymagic {\n    color: gold;\n    font-size: 100px;\n    font-weight: 700;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n    margin: 0;\n    padding: 0;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n}\n\n.starting {\n    height: 100px;\n    width: 100px;\n    background-color: aqua;\n}\n\nh1{\n    color: #ccc;\n    text-align: center;\n    font-size: 50px;\n\n}\n\n.container-nav {\n    display: flex;\n    justify-content: center;\n}\n\n.nav {\n    display: flex;\n    gap: 40px;\n}\n\nnav > div {\n    font-size: 30px;\n    color: white;\n    font-style: italic;\n    cursor: pointer;\n   \n}\n\nnav > div:hover {\n    color: lightseagreen;\n    \n}\n#content {\n    width: 80vw;\n    height: 400px;\n    display: flex;\n margin: 0 auto;\n    justify-self: center;\n    margin-top: 40px;\n    flex-direction: column;\n\n}\n\nnav > div:focus {\n    color: gold;\n}\n\n.heya {\n margin: 0 auto;\n  font-style: italic;\n  font-size: 40px;\n  color: #ccc;\n}\n\n.homediv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: fit-content;\n    height: fit-content;\n   \n    align-self: center;\n    margin-top: 30px;\n}\n\n.homediv > ul > li {\n    color: aquamarine;\n    font-size: 25px;\n    font-style: italic;\n    text-decoration: underline;\n\n}\n\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,yDAAuD;IACvD,sBAAsB;AAC1B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,eAAe;;AAEnB;;AAEA;IACI,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,SAAS;AACb;;AAEA;IACI,eAAe;IACf,YAAY;IACZ,kBAAkB;IAClB,eAAe;;AAEnB;;AAEA;IACI,oBAAoB;;AAExB;AACA;IACI,WAAW;IACX,aAAa;IACb,aAAa;CAChB,cAAc;IACX,oBAAoB;IACpB,gBAAgB;IAChB,sBAAsB;;AAE1B;;AAEA;IACI,WAAW;AACf;;AAEA;CACC,cAAc;EACb,kBAAkB;EAClB,eAAe;EACf,WAAW;AACb;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,kBAAkB;IAClB,mBAAmB;;IAEnB,kBAAkB;IAClB,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;IACjB,eAAe;IACf,kBAAkB;IAClB,0BAA0B;;AAE9B","sourcesContent":["body {\n    margin: 0;\n    padding: 0;\n    background-image: url(../pexels-dương-nhân-2232979.jpg);\n    background-size: cover;\n}\n\n.starting {\n    height: 100px;\n    width: 100px;\n    background-color: aqua;\n}\n\nh1{\n    color: #ccc;\n    text-align: center;\n    font-size: 50px;\n\n}\n\n.container-nav {\n    display: flex;\n    justify-content: center;\n}\n\n.nav {\n    display: flex;\n    gap: 40px;\n}\n\nnav > div {\n    font-size: 30px;\n    color: white;\n    font-style: italic;\n    cursor: pointer;\n   \n}\n\nnav > div:hover {\n    color: lightseagreen;\n    \n}\n#content {\n    width: 80vw;\n    height: 400px;\n    display: flex;\n margin: 0 auto;\n    justify-self: center;\n    margin-top: 40px;\n    flex-direction: column;\n\n}\n\nnav > div:focus {\n    color: gold;\n}\n\n.heya {\n margin: 0 auto;\n  font-style: italic;\n  font-size: 40px;\n  color: #ccc;\n}\n\n.homediv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: fit-content;\n    height: fit-content;\n   \n    align-self: center;\n    margin-top: 30px;\n}\n\n.homediv > ul > li {\n    color: aquamarine;\n    font-size: 25px;\n    font-style: italic;\n    text-decoration: underline;\n\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -741,56 +741,95 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "creates": () => (/* binding */ creates),
-/* harmony export */   "makeList": () => (/* binding */ makeList),
-/* harmony export */   "thirdy": () => (/* binding */ thirdy)
+/* harmony export */   "about": () => (/* binding */ about),
+/* harmony export */   "contact": () => (/* binding */ contact),
+/* harmony export */   "home": () => (/* binding */ home)
 /* harmony export */ });
-function makeList(smana) {
-    const ul = document.createElement('ul')
-    const list = document.createElement('li')
 
-    smana.append(ul)
-    ul.append(list)
-    list.textContent = 'Ye gay'
-    list.textContent += 'Ye moch'
-    ul.append(list)
+function home(smana) {
 
-
-}
-
-function creates(okay) {
-const div = document.createElement('div')
-const ul = document.createElement('ul')
-const list = document.createElement('li')
-
-okay.append(div)
-
-div.append(ul)
-ul.append(list)
-
-list.textContent = "second page"
-
-
-
-}
-
-
-function thirdy(dr) {
+    let arr = ['Potatoo', 'Death Cous', 'WHAT', 'Spicy Hooves!']
+    const hey = document.createElement('h2')
     const div = document.createElement('div')
     const ul = document.createElement('ul')
-    const list = document.createElement('li')
-    
 
-    
+
+
+    hey.classList.add('heya')
+    hey.textContent = 'Our most popular meals!'
+    smana.append(hey)
+    div.classList.add('homediv')
+    smana.append(div)
     div.append(ul)
-    ul.append(list)
-    
-    list.textContent = "Contact page"
-    const hey = document.createElement('h1')
 
-    hey.classList.add('mymagic')
-    hey.textContent = 'third page'
+    arr.forEach((item) => {
+        const li = document.createElement('li')
+        li.innerText = item,
+        ul.appendChild(li)
+
+    })
+
+ 
+}
+
+function about(dr) {
+    let arr = ['We pride ourselves in our top-class chefs', 'World-class ingredients', 'Gorgeous view by the milky way']
+    const hey = document.createElement('h2')
+    const div = document.createElement('div')
+    const ul = document.createElement('ul')
+
+
+
+    hey.classList.add('heya')
+    hey.textContent = "We are a very new upcoming restaurant in planet Wayoming"
     dr.append(hey)
+    div.classList.add('homediv')
+    dr.append(div)
+    div.append(ul)
+
+    arr.forEach((item) => {
+        const li = document.createElement('li')
+        li.innerText = item,
+        ul.appendChild(li)
+
+    })
+    const heyo = document.createElement('h3')
+
+    heyo.classList.add('heya')
+    heyo.textContent = "Overall the best restaurant in the galaxy!"
+    dr.append(heyo)
+
+
+
+
+}
+
+
+function contact(dr) {
+
+    let arr = ['69 Sunset Boulevard', 'Planet Wayoming', 'Road of the homeless', "Near Ahmed's Gay Mansion"]
+    const hey = document.createElement('h2')
+    const div = document.createElement('div')
+    const ul = document.createElement('ul')
+
+
+
+    hey.classList.add('heya')
+    hey.textContent = "We'll be looking forward to see you in our restaurant!"
+    dr.append(hey)
+    div.classList.add('homediv')
+    dr.append(div)
+    div.append(ul)
+
+    arr.forEach((item) => {
+        const li = document.createElement('li')
+        li.innerText = item,
+        ul.appendChild(li)
+
+    })
+
+
+
 
 }
 
@@ -950,7 +989,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log("21212")
+
 
 const container = document.getElementById('content')
 let gt = document.querySelector('.nav')
@@ -963,25 +1002,21 @@ gt.addEventListener('click', () => {
 
   if (e.innerHTML == 'About us') {
       container.textContent = ''
-      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.creates)(container)
+      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.about)(container)
   } else if (e.innerHTML == 'Contact') {
       container.textContent = ''
-      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.thirdy)(container)
+      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.contact)(container)
   } else if (e.innerHTML == 'Home') {
       container.textContent =''
-      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.makeList)(container)
+      ;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.home)(container)
   }
 })
 
-function doit() {
-    const div = document.createElement('div')
-    div.classList.add('starting')
-}
-doit()
-;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.makeList)(container)
+
+;(0,_gore_js__WEBPACK_IMPORTED_MODULE_3__.home)(container)
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle afd58b92f83cfe51a6c5.js.map
+//# sourceMappingURL=bundle 00528785b3a7b7725d3a.js.map

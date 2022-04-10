@@ -43,20 +43,42 @@ nav > div:hover {
 #content {
     width: 80vw;
     height: 400px;
-    background-color: #ccc;
     display: flex;
  margin: 0 auto;
     justify-self: center;
     margin-top: 40px;
- 
+    flex-direction: column;
+
 }
 
 nav > div:focus {
     color: gold;
 }
 
-.mymagic {
-    color: gold;
-    font-size: 100px;
-    font-weight: 700;
+.heya {
+ margin: 0 auto;
+  font-style: italic;
+  font-size: 40px;
+  color: #ccc;
 }
+
+.homediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+   
+    align-self: center;
+    margin-top: 30px;
+}
+
+.homediv > ul > li {
+    color: aquamarine;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+

@@ -1,8 +1,8 @@
 import './styles/main.css'
 import './styles/contact.css'
 import './styles/about.css'
-import {makeList, creates, thirdy} from './gore.js'
-console.log("21212")
+import {home, about, contact} from './gore.js'
+
 
 const container = document.getElementById('content')
 let gt = document.querySelector('.nav')
@@ -15,19 +15,15 @@ gt.addEventListener('click', () => {
 
   if (e.innerHTML == 'About us') {
       container.textContent = ''
-      creates(container)
+      about(container)
   } else if (e.innerHTML == 'Contact') {
       container.textContent = ''
-      thirdy(container)
+      contact(container)
   } else if (e.innerHTML == 'Home') {
       container.textContent =''
-      makeList(container)
+      home(container)
   }
 })
 
-function doit() {
-    const div = document.createElement('div')
-    div.classList.add('starting')
-}
-doit()
-makeList(container)
+
+home(container)
