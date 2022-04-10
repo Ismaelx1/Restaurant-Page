@@ -5,11 +5,7 @@ body {
     background-size: cover;
 }
 
-.starting {
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-}
+
 
 h1{
     color: #ccc;
@@ -71,7 +67,7 @@ nav > div:focus {
     height: fit-content;
    
     align-self: center;
-    margin-top: 30px;
+ 
 }
 
 .homediv > ul > li {
@@ -80,5 +76,22 @@ nav > div:focus {
     font-style: italic;
     text-decoration: underline;
 
+}
+
+#footer {
+    width: 100vw;
+    height: 5.8vh;
+    bottom: 0;
+    background-color: #020f29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+p {
+ 
+    font-size: 15px;
+    color: #ccc;
+    font-style: italic;
 }
 
